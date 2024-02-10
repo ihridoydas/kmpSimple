@@ -18,7 +18,7 @@ class HomeViewModel: ViewModel() {
 
     init {
         viewModelScope.launch {
-            homeRepository.getUser().collect() {users->
+            homeRepository.getUsers().collect() {users->
                 _users.update {
                     it + users
                 }
