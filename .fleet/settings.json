@@ -1,0 +1,20 @@
+{
+    "plugins": [
+        {
+            "type": "add",
+            "pluginName": "fleet.markdown"
+        },
+        {
+            "type": "add",
+            "pluginName": "fleet.gradle"
+        },
+        {
+            "type": "add",
+            "pluginName": "fleet.image.view"
+        },
+        {
+            "type": "add",
+            "pluginName": "fleet.log"
+        }
+    ]
+}
