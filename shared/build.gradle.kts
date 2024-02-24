@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.androidLibrary)
 
     kotlin("plugin.serialization") version "1.9.21"
+    alias(libs.plugins.skie)
 }
 
 kotlin {

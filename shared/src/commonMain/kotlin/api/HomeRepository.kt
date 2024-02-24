@@ -13,7 +13,7 @@ class HomeRepository {
         return response.body()
     }
 
-    fun getUser() = flow {
+    fun getUsers() = flow {
         emit(getRandomUser().results)
     }
     suspend fun getUserWithoutFlow(): List<RandomUser> {
