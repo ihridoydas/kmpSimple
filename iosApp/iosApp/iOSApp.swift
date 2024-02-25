@@ -4,8 +4,9 @@ import SwiftUI
 struct iOSApp: App {
 	var body: some Scene {
 		WindowGroup {
-//			ContentView()
-			UserList(viewmodel: UserList.ViewModel())
+			//ContentView()
+            CustomNavigationView()
+	//		UserList(viewmodel: UserList.ViewModel())
 		}
 	}
 }
